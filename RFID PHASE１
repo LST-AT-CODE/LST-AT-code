@@ -1,0 +1,19 @@
+rfid_phase1/
+├─ main.py
+├─ requirements.txt
+└─ app/
+   ├─ config.py
+   ├─ utils/
+   │  └─ logging.py
+   ├─ db/
+   │  ├─ schema.sql
+   │  ├─ connection.py
+   │  └─ repositories.py
+   ├─ domain/
+   │  └─ logic.py
+   ├─ services/
+   │  └─ rfid/
+   │     ├─ interface.py
+   │     └─ stub_reader.py
+   └─ ui/
+      └─ cli.py
